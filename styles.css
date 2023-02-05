@@ -11,11 +11,11 @@ body{
 }
 
 header{
-    background-color: blue;
+    background-color: gray;
     height: 77px;
 }
 .Navbar{
-    background-color: blue;
+    background-color: gray;
     width: 100%;
 }
 
@@ -94,6 +94,13 @@ img{
 #InfoGoogle{
     display: flex;
     justify-content: center;
+    padding: 20px;
+}
+#GoogleDrive{
+    margin-top: 80px;
+    margin-right: 30px;
+    width: 300px;
+    height: 100px;
 }
 
 #P2{
@@ -107,10 +114,31 @@ img{
     margin-left: 165px;
 }
 
+#PInicio{
+    width: 200px;
+    height: 100px;
+    margin-top: 80px;
+    margin-right: 30px;
+}
+
+
 #P3{
     left: 937px;
 }
 
+#Twitch{
+    width: 50px;
+    height: 50px;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+#Interfaz{
+    width: 150px;
+    height: 100px;
+    margin-top: 80px;
+    margin-right: 30px;
+}
 #About_me{
     margin-top: 500px;
 }
@@ -123,6 +151,22 @@ img{
     top: 1280px;
     background: #0575dd;
     border-radius: 20px;
+}
+
+#Yo{
+    width: 300px;
+    height: 300px;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-bottom: 300px;
+    margin-top: -190px;
+}
+
+#SobreMi{
+    align-items: center;
+    margin-left: 350px;
+    margin-top: 100px;
+    margin-right: 20px;
 }
 
 #Skills{
@@ -189,7 +233,7 @@ table {
     width: 530px;
     height: 252px;
     left: 135px;
-    top: 2000px;
+    top: 2180px;
     background: #D9D9D9;
     border-radius: 20px;
 }
@@ -220,7 +264,7 @@ table {
     width: 530px;
     height: 252px;
     left: 700px;
-    top: 2000px;
+    top: 2180px;
     background: #D9D9D9;
     border-radius: 20px;
 }
@@ -232,4 +276,11 @@ table {
 
 .RedSocial{
     margin-top: 30px;
+}
+
+@media (min-width:768px) {
+    .SearchBox{
+        height: 48px;
+        width: 440px;
+    }
 }

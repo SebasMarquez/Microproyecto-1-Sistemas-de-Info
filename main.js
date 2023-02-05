@@ -56,20 +56,19 @@ ButtonElement.addEventListener('click', () => {
     }
 })
 
-const ratings = {
+const tecnologias = {
     Python : 2.8,
-    Java : 1,
-    estructura_de_datos: 3.5,
-    html: 2.5,
-    ccs: 2,
-    javascript:1.5,
-    algoritmos:  3.5,
+    Java : 3.5,
+    HTML: 2.5,
+    CSS: 2,
+    JavaScript:1.5,
+    Algoritmos:3.5,
   };
 
-const starTotal = 5;
-for(const rating in ratings) {  
-  const starPercentage = (ratings[rating] / starTotal) * 100;
-  const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
-  document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded; 
+const EstrellasTotal = 5;
+for(const tecnologia in tecnologias) {  
+  const EstrellaPorcentaje = (tecnologias[tecnologia] / EstrellasTotal) * 100;
+  const EstrellaPorcentajeRedondeado = `${(Math.round(EstrellaPorcentaje / 10) * 10)}%`;
+  document.querySelector(`.${tecnologia} .stars-inner`).style.width = EstrellaPorcentajeRedondeado; 
 }
 
