@@ -26,7 +26,7 @@ header{
 
 .Column{
     width:10%;
-    padding: 2%;
+    padding: 1%;
     vertical-align: bottom;
 }
 
@@ -71,6 +71,10 @@ img{
 .adelante{
     right: 2%;
     top: calc(50% - 70px);
+}
+
+#Experiencia{
+    padding: 5px;
 }
 
 .Projects{
@@ -279,8 +283,12 @@ table {
 }
 
 @media (min-width:768px) {
-    .SearchBox{
-        height: 48px;
-        width: 440px;
+    .NavbarColumna1{
+        width: 55%;
+        vertical-align: bottom;
+    }
+
+    .Column{
+        width:12.5%;
     }
 }
