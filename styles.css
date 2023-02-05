@@ -15,6 +15,7 @@ header{
     height: 77px;
 }
 .Navbar{
+    background-color: blue;
     width: 100%;
 }
 
@@ -34,6 +35,7 @@ img{
     height: 578px;
 
 }
+
 .contenedor{
     position: relative;
     width: 100%;
@@ -60,10 +62,12 @@ img{
     cursor: pointer;
     transform: scale(1.2,1.2);
 }
+
 .atras{
     left: 2%;
     top: calc(50% - 70px);
 }
+
 .adelante{
     right: 2%;
     top: calc(50% - 70px);
@@ -81,9 +85,26 @@ img{
 #P1{
     left: 47px;
 }
+#Google{
+    width:50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 165px;
+}
+#InfoGoogle{
+    display: flex;
+    justify-content: center;
+}
 
 #P2{
     left: 493.5px;
+}
+
+#Youtube{
+    width:50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 165px;
 }
 
 #P3{
@@ -143,9 +164,72 @@ table {
     left: 0;
     white-space: nowrap;
     overflow: hidden;
-    width: 0;
-  }
+    width:0;
+   }
   .stars-inner::before {
     content: "\f005 \f005 \f005 \f005 \f005";
     color: #f8ce0b;
   }
+  .attribution {
+    font-size: 12px;
+    color: #444;
+    text-decoration: none;
+    text-align: center;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: -1;
+  }
+  .attribution:hover {
+    color: #1fa67a;
+  }
+
+#Contacto{
+    position: absolute;
+    width: 530px;
+    height: 252px;
+    left: 135px;
+    top: 2000px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+.Mensaje{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.Input{
+    margin-top:30px;
+    margin-left: 10px;
+}
+
+.InputMensaje{
+    margin: 30px ;
+    margin-left:0;
+    margin-bottom: 0;
+}
+
+.SendButton{
+    width: 100px;
+    margin-top: 5px;
+    margin-left:55px
+}
+
+#RedesSociales{
+    position: absolute;
+    width: 530px;
+    height: 252px;
+    left: 700px;
+    top: 2000px;
+    background: #D9D9D9;
+    border-radius: 20px;
+}
+
+#RS{
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.RedSocial{
+    margin-top: 30px;
+}
