@@ -1,3 +1,14 @@
+let tecnologias = {};
+tecnologias.python = 3;
+tecnologias.java = 3;
+tecnologias.estructura_de_datos= 3.5;
+tecnologias.html = 2.5;
+tecnologias.ccs = 2;
+tecnologias.javascript = 1.5;
+tecnologias.algoritmos = 3.5;
+
+let JSON = JSON.stringify(tecnologias);
+
 let imagenes = ['GIMNASIO (1).jpeg','UNIMET (1).jpeg','MESSI.jpg'];
 let cont = 0;
 
